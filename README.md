@@ -65,9 +65,28 @@ Executando minha versão do programa: 3 thread
 + 4ª execução teve tempo de 15.090834 segundos
 
  Observações Gerais:
+
+Programa com Mutex:
++ Para 1 thread, o tempo médio de execução é em torno de 0.985 segundos.
++ Para 3 threads, o tempo médio de execução é em torno de 2.039 segundos.
++Para 5 threads, o tempo médio de execução é em torno de 3.056 segundos.
+
+Programa com RWLock:
++ Para 1 thread, o tempo médio de execução é em torno de 0.992 segundos.
++ Para 3 threads, o tempo médio de execução é em torno de 3.710 segundos.
++ Para 5 threads, o tempo médio de execução é em torno de 8.370 segundos.
+
+Minha versão do programa:
++ Para 1 thread, o tempo médio de execução é em torno de 1.737 segundos.
++ Para 3 threads, o tempo médio de execução é em torno de 3.834 segundos.
++ Para 5 threads, o tempo médio de execução é em torno de 12.319 segundos.
+
 + O programa com mutex, embora parece eficiente com uma única thread, sofre no desempenho conforme a adição de mais, acredito que seja devido aos bloqueios das operações de escrita. O programa com rwlock tem um desempenho parecido, sendo melhorzinho com uma thread, mas também sofre problemas de escalabilidade com mais threads.
 
-+ Minha versão personalizada, que combina mutex e condições, parece que ficou ali no ponto intermediário entre elas. A questão de tentar manter um equilíbrio entre quem lê e escreve pode ser boa pra Ela busca equilibrar leitores e escritores, o que é interessante para quando utilizadas muitas threads, mas gera essa questão de escalabilidade também, podendo justificar esse maior tempo ai de processamento do que as demais implementações.  
++ Minha versão personalizada, que combina mutex e condições, parece que ficou ali no ponto intermediário entre elas. A questão de tentar manter um equilíbrio entre quem lê e escreve pode ser boa quando utilizadas muitas threads, mas gera essa questão de escalabilidade também.
+A questão do tempo superior demais, possa ser explicada pela máquina de execução do programa.
+
+  
 
 
 
