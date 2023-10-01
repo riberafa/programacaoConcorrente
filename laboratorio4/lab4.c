@@ -1,13 +1,14 @@
 /* Disciplina: Programacao Concorrente */
 /* Prof.: Silvana Rossetto */
+/* aluno: Rafael Ribeiro */
 /* Laboratório: 4 */
 /* Objetivo: Praticar a implementação de padrões clássicos de programação concorrente usando locks e variáveis de condição. Nesta semana, vamos trabalhar com o problema dos leitores/escritores. */
   
-  #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include "list_int.h" // Suponho que você tenha uma biblioteca personalizada para manipular a lista
-#include "timer.h"    // Suponho que você tenha uma biblioteca personalizada para medir o tempo
+#include "list_int.h"  
+#include "timer.h"    
 
 #define QTDE_OPS 10000000 //quantidade de operacoes sobre a lista (leitura e escrita)
 #define QTDE_INI 100
