@@ -1,0 +1,75 @@
+Coletando tempos de execução para o código concorrente com o comando: ./new_integral_conc beta 0.001 0 1000 1
+Primeira execução - Tempo: 8.924433 s
+Amostra 2 - Tempo: 8.925030 s, Desvio Padrão: 0.000299
+Amostra 3 - Tempo: 9.277081 s, Desvio Padrão: 0.166099
+Amostra 4 - Tempo: 9.439032 s, Desvio Padrão: 0.224101
+Amostra 5 - Tempo: 9.861434 s, Desvio Padrão: 0.350899
+
+Coletando tempos de execução para o código concorrente com o comando: ./new_integral_conc beta 0.001 0 1000 2
+Primeira execução - Tempo: 6.093167 s
+Amostra 2 - Tempo: 7.129531 s, Desvio Padrão: 0.518182
+Amostra 3 - Tempo: 7.247292 s, Desvio Padrão: 0.518537
+Amostra 4 - Tempo: 6.532966 s, Desvio Padrão: 0.466335
+Amostra 5 - Tempo: 6.438216 s, Desvio Padrão: 0.435433
+
+Coletando tempos de execução para o código concorrente com o comando: ./new_integral_conc beta 0.001 0 1000 3
+Primeira execução - Tempo: 5.729955 s
+Amostra 2 - Tempo: 5.364709 s, Desvio Padrão: 0.182623
+Amostra 3 - Tempo: 5.318701 s, Desvio Padrão: 0.183984
+Amostra 4 - Tempo: 5.312207 s, Desvio Padrão: 0.173559
+Amostra 5 - Tempo: 5.498819 s, Desvio Padrão: 0.157561
+
+Coletando tempos de execução para o código concorrente com o comando: ./new_integral_conc beta 0.001 0 1000 4
+Primeira execução - Tempo: 6.974008 s
+Amostra 2 - Tempo: 5.640565 s, Desvio Padrão: 0.666721
+Amostra 3 - Tempo: 5.112038 s, Desvio Padrão: 0.783464
+Amostra 4 - Tempo: 5.249579 s, Desvio Padrão: 0.736112
+Amostra 5 - Tempo: 5.675358 s, Desvio Padrão: 0.658972
+
+Coletando tempos de execução para o código concorrente com o comando: ./new_integral_conc beta 0.001 0 1000 6
+Primeira execução - Tempo: 5.542189 s
+Amostra 2 - Tempo: 5.675879 s, Desvio Padrão: 0.066845
+Amostra 3 - Tempo: 5.540401 s, Desvio Padrão: 0.063448
+Amostra 4 - Tempo: 5.489496 s, Desvio Padrão: 0.069073
+Amostra 5 - Tempo: 5.498716 s, Desvio Padrão: 0.066764
+
+Coletando tempos de execução para o código concorrente com o comando: ./new_integral_conc beta 0.001 0 1000 8
+Primeira execução - Tempo: 6.143577 s
+Amostra 2 - Tempo: 6.055462 s, Desvio Padrão: 0.044058
+Amostra 3 - Tempo: 7.610967 s, Desvio Padrão: 0.713411
+Amostra 4 - Tempo: 6.489050 s, Desvio Padrão: 0.619811
+Amostra 5 - Tempo: 6.206628 s, Desvio Padrão: 0.573599
+Tempo médio de execução com 1 threads: 9.285402 s
+Tempo médio de execução com 2 threads: 6.688234 s
+Tempo médio de execução com 3 threads: 5.444878 s
+Tempo médio de execução com 4 threads: 5.730310 s
+Tempo médio de execução com 6 threads: 5.549336 s
+Tempo médio de execução com 8 threads: 6.501137 s
+
+Tempo Concorrente com 1 thread - Média: 9.285402
+Tempo Concorrente com 2 threads - Média: 6.688234
+Amostras: [6.09316704, 7.12953137, 7.24729223, 6.53296595, 6.43821573]
+Tempo Concorrente com 3 threads - Média: 5.444878
+Amostras: [5.72995457, 5.36470884, 5.31870078, 5.3122068, 5.49881887]
+Tempo Concorrente com 4 threads - Média: 5.730310
+Amostras: [6.97400788, 5.64056512, 5.11203835, 5.24957886, 5.67535838]
+Tempo Concorrente com 6 threads - Média: 5.549336
+Amostras: [5.54218861, 5.67587882, 5.54040108, 5.48949586, 5.49871556]
+Tempo Concorrente com 8 threads - Média: 6.501137
+Amostras: [6.14357726, 6.05546152, 7.61096708, 6.48905001, 6.2066284]
+
+Informações sobre a aceleração:
+Aceleração com 1 threads: 1.000000
+Aceleração com 2 threads: 1.388319
+Aceleração com 3 threads: 1.705346
+Aceleração com 4 threads: 1.620401
+Aceleração com 6 threads: 1.673246
+Aceleração com 8 threads: 1.428274
+
+Informações sobre a eficiência em relação aos núcleos (fixo em 4):
+Eficiência com 1 threads: 0.250000
+Eficiência com 2 threads: 0.347080
+Eficiência com 3 threads: 0.426337
+Eficiência com 4 threads: 0.405100
+Eficiência com 6 threads: 0.418311
+Eficiência com 8 threads: 0.357068
